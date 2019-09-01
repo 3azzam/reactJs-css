@@ -1,0 +1,84 @@
+
+.button {
+    background-color: #fff  ;
+    font-size: 1.3rem ;
+    padding: 0 2.5rem ;
+    height: 3rem ;
+    font-weight: 300 ;
+    border-radius: 50px ;
+    color :#e74c3c ;
+    
+}
+
+.header {
+    background-color: rgba(254 , 254 , 254 , 0.85 ) ;
+    height: 100vh;
+    width: 100% ;
+    position: fixed;
+    transition: height 150ms ease-in ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    z-index : 5 ;
+}
+
+.small-header{
+    height: 0 ;
+    transition: height 750ms ease-in ;
+}
+
+.t-div{
+    width: 35rem ;
+    height: 35rem ;
+    padding: 4rem ;
+    background-color: #e74c3c  ;
+    border-radius: 100% ;
+    transition: height 150ms ease-in , width 150ms ease-in ;
+    text-align: center ;
+    display: flex;
+    align-items: center ;
+    justify-content: center ;
+    box-shadow: 0px 0px 0px 1rem #fff ;
+}
+
+.small-div {
+    width: 6rem !important;
+    height: 6rem !important ;
+    padding: 1rem !important ;
+}
+
+.small-div .content i {
+    font-size: 1.5rem ;
+    padding-top: 4rem ;
+    cursor: default ; 
+}
+
+.content{
+    font-size: 2rem ;
+    color: #fff ;
+}
+
+.content h1 {font-size: 4rem ; font-family: 'Pattaya' }
+.content p { 
+    font-family: "Work Sans", sans-serif ; 
+    font-weight: 300 ; 
+    font-size: 1.5rem ;  }
+
+.content h1 , p {
+    margin-bottom: 2.5rem ;
+}
+
+@media(max-width:800px){
+    .md-med-m {
+        margin-bottom: 1rem ;
+    }
+}
+
+@media(max-width: 600px ) {
+    .t-div {
+        width: 26rem ; 
+        height: 26rem ;
+        padding: 1rem ;
+    }
+
+}
